@@ -1,0 +1,64 @@
+div h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 5% 0 5%;
+}
+.inner-section{
+    width: 100%;
+}
+.active-container{
+    margin-left: 20px;
+}
+
+.left-side{
+    width: 50%;
+}
+.right-side{
+    width: 70%;
+}
+
+.flex-section{
+    display: flex;
+    
+}
+.form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.form input,textarea{
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.search-form{
+    margin-top: 20px;
+}
+
+.note-data{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+.note-data h3{
+    width: 70%;
+}
+.note-button{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.note-button img{
+    width: 30px;
+}
